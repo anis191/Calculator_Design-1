@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    margin-top: 10px;
+    text-align: center;
+}
+#card{
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    font-size: 0px;
+}
+.cal_area{
+    margin-top: 20px;
+    height: 100px;
+    width: 346px;
+    border: 1px solid blue;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 10px;
+    box-sizing: border-box;
+    letter-spacing: 3px;
+}
+#cal_body input{
+    height: 70px;
+    width: 87px;
+    background-color: #1e2128;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+#cal_body input:nth-child(4n){
+    background-color: #5f53b9;
+}
+#cal_body input:hover{
+    background-color: #fec6c9;
+}
